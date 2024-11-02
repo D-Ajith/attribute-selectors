@@ -1,4 +1,7 @@
-body{background-color: rgba(128, 220, 245, 0.642);}
+ul{
+    background-color: rgba(128, 220, 245, 0.642);
+    list-style-type:number;
+}
 li[data-available="true"]{
     background-color:green;
     margin:10px;
@@ -10,6 +13,6 @@ li[data-available="false"]{
 li[ data-price="high"]{
     font-weight:bold;
 }
-ol[data-category=”electronic”]{
-   list-style-type: upper-alpha;
+[data-category="Electronics"]{
+    list-style-type:upper-alpha;
 }
